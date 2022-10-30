@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<script
+defer
+src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
+</head>
+<body>
+    <div class ='scores'></div>
+    <div class="fullscreen-btn">Go Fullscreen</div>
+    
+    <div class='game-over'>Game-Over <button>Play Again</button></div>
+    <div class="score">Score:<spans class="points">0</span></div>
+
+ <div class ='grid'>
+ </div>
+ <div class="controller">
+    <button class="btn up"><ion-icon class="move-icon" name="caret-up"></ion-icon></button>
+    <button class="btn right"><ion-icon class="move-icon" name="caret-forward"></ion-icon></button>
+    <button class="btn down"><ion-icon class="move-icon" name="caret-down"></ion-icon></button>
+    <button class="btn left"><ion-icon class="move-icon" name="caret-back"></ion-icon></button>
+ </div>
+
+    <script src ='pieces.js'></script>
+    <script src="game.js" ></script>
+</body>
+</html>
