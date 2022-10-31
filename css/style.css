@@ -29,6 +29,7 @@ html {
     transform: translate(-50%);
     display: grid;
     width: 20rem;
+    height: 50vh;
     grid-template-columns: repeat(10,minmax(4rem,1fr));
     grid-template-rows: repeat(20,minmax(4rem,1fr));
     grid-auto-rows: 1fr; 
@@ -90,7 +91,7 @@ button{
     z-index: 1;
     color: #333;
     position:absolute;
-    height: 60rem;
+    height: 50vh;
     width: 40rem;
     right: 61%;
     font-weight: 700;

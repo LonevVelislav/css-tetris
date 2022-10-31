@@ -11,13 +11,7 @@
         
         visibility: visible;
         
-            left: 0;
-            right: 0;
-            margin-left: auto;
-            margin-right: auto;
-            bottom: -30%;
-            width: 25rem;
-            height: 25rem;
+            right: 10%;
         
     }
     .scores{       
@@ -29,53 +23,42 @@
 }
 @media (max-width:48em){
     html{
-        font-size: 50%;
-    }
-    .controller{
-        bottom: -12%;
-        width: 15rem;
-        height: 15rem;
-    }
-    .grid{
-        transform: translateX(-80%);
-    }
-}
-@media (max-width:26em){
-    html{
         font-size: 45%;
     }
-    .grid{
-        transform: translateX(-50%);
-    }
     .controller{
+        position: fixed;
+        bottom:1%;
         left: 0;
         right: 0;
         margin-left: auto;
         margin-right: auto;
-        bottom: -25%;
-        width: 20rem;
-        height: 20rem;
+        width: 17rem;
+        height: 17rem;
     }
+    
 }
-@media (max-width:23em){
-    html{
-        font-size: 45%;
-    }
-    .grid{
-        transform: translateX(-50%);
-    }
-  
-}
-@media (max-width:20em){
+@media (max-width:26em){
     html{
         font-size: 40%;
     }
-    .grid{
-        transform: translateX(-50%);
-    }
     .controller{
-        bottom: -30%;
-        width: 25rem;
-        height: 25rem;
+        width: 40vmin;
+        height: 40vmin;
     }
+   
+   
+}
+@media (max-width:23em){
+html{
+    font-size: 35%;
+}
+    
+  
+}
+@media (max-width:20em){
+   html{
+    font-size: 30%;
+   }
+    
+  
 }
